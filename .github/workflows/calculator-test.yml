@@ -20,7 +20,7 @@ jobs:
         cache: maven
 
     - name: Run tests with Maven
-      working-directory: 04.GitOps/calculator
+      working-directory: 04.GitOps/02.calculator
       run: mvn clean test
 
     - name: Test Report Success

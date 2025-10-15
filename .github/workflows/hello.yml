@@ -18,4 +18,4 @@ jobs:
         python-version: '3.x'
 
     - name: Run script
-      run: python 04.GitOps/hello.py
+      run: python 04.GitOps/01.script/hello.py
