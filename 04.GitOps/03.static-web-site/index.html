@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Deployed Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🚀 Welcome to My Auto-Deployed Site!</h1>
+        <p>This site is automatically deployed via GitHub Actions</p>
+    </header>
+    
+    <main>
+        <section class="features">
+            <div class="feature-card">
+                <h3>✅ Continuous Deployment</h3>
+                <p>Every push to main triggers automatic deployment</p>
+            </div>
+            <div class="feature-card">
+                <h3>⚡ GitHub Pages</h3>
+                <p>Hosted for free on GitHub Pages</p>
+            </div>
+            <div class="feature-card">
+                <h3>🔧 GitHub Actions</h3>
+                <p>Powered by GitHub Actions workflow</p>
+            </div>
+        </section>
+        
+        <section class="info">
+            <h2>Deployment Status</h2>
+            <p id="status">Site is live and working!</p>
+            <button onclick="showAlert()">Click me!</button>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Last deployed: <span id="timestamp"></span></p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
